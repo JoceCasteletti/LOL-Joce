@@ -1,0 +1,25 @@
+.card{
+    background-color: rgba(102, 95, 134, 0.95);
+    border-color:black;
+    border-style: solid;
+    border-width: 4px;
+}
+
+
+.card-img-wrapper img {
+    max-height: 120px;
+    max-width: 120px;
+}
+
+footer{
+    margin-bottom: 10px; 
+    background-color: blueviolet
+}
+
+.navbar-brand{
+    background-color: blueviolet;
+}
+body {
+    background: url('https://cdn.wallpapersafari.com/4/27/6NMgEr.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
