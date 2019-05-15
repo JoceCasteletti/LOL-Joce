@@ -8,6 +8,8 @@
 //Se deja referencia a la data 
 let data = Object.values(window.LOL.data);
 
+
+
 //Funcion mostrar data dentro de una tarjeta de bootstrap
 const showData = (data) => {
     let html = '';
@@ -20,7 +22,7 @@ const showData = (data) => {
           <img class="card-img mx-auto d-block" src="${element.img}" alt="${element.name}">
           </div>
           <div class="card-body">
-            <h5 class="card-title">HP: ${element.stats.spellblock}</h5>
+            <h5 class="card-title">Spellblock: ${element.stats.spellblock}</h5>
             <p class="card-text">Id: ${element.id}</p>
             <p class="card-text">Ataque: ${element.info.attack}</p>
             <p class="card-text">Defensa: ${element.info.defense}</p>
@@ -49,9 +51,9 @@ btnFilter.addEventListener('click', () => {
   const tag = selectTag.value;
   const order = sortLol.value;
 
-  let list = window.filterByTag(data, tag);
-  list = window.orderLol(list,"rol", order);
+  let lolList = window.filterByTag(data, tag);
+  lolList = window.orderLol(lolList,"rol", order);
 
-  showData(list);
+  showData(lolList);
 
 })
