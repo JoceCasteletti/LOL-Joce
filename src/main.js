@@ -8,7 +8,11 @@
 //Se deja referencia a la data 
 let data = Object.values(window.LOL.data);
 
-
+window.addEventListener(‘load’, () => {
+  fetch(‘data/LOL/data.json’).then((response) => {
+      return response.json();
+  }).then((data) => {
+      const list = data.LOL;
 
 //Funcion mostrar data dentro de una tarjeta de bootstrap
 const showData = (data) => {

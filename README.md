@@ -1,5 +1,38 @@
+# Data Lovers LOL 👾🎮
+Esta pagina web es posible visualizar en el siguiente link
 
 
+El presente readme tiene como finalidad documentar el proceso de creación de una aplicación web y uso de [Lol](https://es.wikipedia.org/wiki/League_of_Legends).
+
+
+![Logo](src/img/logo.jpg)
+
+## Índice📜
+
+* [Preámbulo](#preámbulo)
+* [Descripción](#resumen-del-proyecto)
+
+## Preámbulo
+League of Legends es un juego competitivo en línea, que fusiona la velocidad y la intensidad de la estrategia en tiempo real con elementos de juegos de rol.
+
+![Pantalla](src/img/lolfondo.jpg)
+
+## Resumen del proyecto 💻📝
+
+Lol es juego competitivo de rol.
+League of Legends,es un juego utilizado por mas de 100 millones de personas en el mundo que juegan activamente,la página está creada para usuarios interesados en ver información referente al juego, que busca principalmente entregar a los usuarios información relavante para combatir y nuevos eventos.
+
+Podemos verlo en la siguiente pantalla:
+
+![SteamPantalla](src/img/pantallasteam.jpg)
+
+## La interfaz permite al usuario:
+
+Ver la Data.
+Ordenar la Data Alfabéticamente.
+Filtrar la Data por Roles.
+
+### Historias de usuario 👩🏻🧔🏻
 HU 1
 Descripción
 Yo como jugador principiante de League of Legends, quiero conocer a todos los personajes del juego, para comenzar a jugar
@@ -9,23 +42,10 @@ HU 2
 Descripción
 Yo como jugador principiante de League of Legends, quiero filtrar los campeones cuyo rol sea "Tank", para jugar estratégicamente y proteger al resto de mi equipo.
 
-## **Checklist**
+HU 3
+Descripción
+Yo como jugador principiante de League of Legends, quiero ordenar de forma ascedente y descendente, para que mi búsqueda sea más rápida.
 
-* [ ] Usa VanillaJS.
-* [ ] No hace uso de `this`.
-* [ ] Pasa linter (`npm pretest`)
-* [ ] Pasa tests (`npm test`)
-* [ ] Pruebas unitarias cubren un mínimo del 70% de statements, functions y
-  lines y branches.
-* [ ] Incluye _Definición del producto_ clara e informativa en `README.md`.
-* [ ] Incluye historias de usuario en `README.md`.
-* [ ] Incluye _sketch_ de la solución (prototipo de baja fidelidad) en
-  `README.md`.
-* [ ] Incluye _Diseño de la Interfaz de Usuario_ (prototipo de alta fidelidad)
-  en `README.md`.
-* [ ] Incluye link a Zeplin en `README.md`.
-* [ ] Incluye el listado de problemas que detectaste a través de tests de
-  usabilidad en el `README.md`.
-* [ ] UI: Muestra lista y/o tabla con datos y/o indicadores.
-* [ ] UI: Permite ordenar data por uno o más campos (asc y desc).
-* [ ] UI: Permite filtrar data en base a una condición.
+
+#### Autor 👩🏻📌
+Jocelyn Casteletti, estudiante de Laboratoria (9° Generación).
