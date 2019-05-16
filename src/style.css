@@ -1,8 +1,5 @@
-.card{
-    background-color: rgba(102, 95, 134, 0.95);
-    border-color:black;
-    border-style: solid;
-    border-width: 4px;
+.card-body{
+    background-color: rgba(196, 165, 29, 0.95);   
 }
 
 
@@ -13,10 +10,28 @@
 
 footer{
     margin-bottom: 10px; 
-    background-color: blueviolet
+    background-color: rgb(52, 54, 54)
 }
 
 body {
-    background: url('https://cdn.wallpapersafari.com/4/27/6NMgEr.jpg') no-repeat center center fixed;
+    background: url('http://i.imgur.com/ksXHJzE.jpg') no-repeat center center fixed;
     background-size: cover;
 }
+
+.card-img-wrapper {
+    padding: 2em;
+    background-color: rgba(201, 167, 15, 0.5);
+}
+
+.filters{
+    max-height: 350px;
+    max-width: 350px;
+    display: inline-block;
+}
+
+#select_order{
+    margin-right: 5em
+}
+
+
+
