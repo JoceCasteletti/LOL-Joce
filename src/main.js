@@ -20,7 +20,7 @@ window.addEventListener('load', () => {
         <img class="card-img mx-auto d-block" src="${element.img}">
         </div>
         <div class="card-body">
-          <h5 class="card-title">Nombre: ${element.id}</h5>
+          <h5 class="card-title">${element.id}</h5>
           <p class="card-text">Ataque: ${element.info.attack}</p>
           <p class="card-text">Defensa: ${element.info.defense}</p>
           <p class="card-text">Magia: ${element.info.magic}</p>

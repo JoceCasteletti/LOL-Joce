@@ -24,7 +24,10 @@ League of Legends,es un juego utilizado por mas de 100 millones de personas en e
 
 Podemos verlo en la siguiente pantalla:
 
-![SteamPantalla](src/img/pantallasteam.jpg)
+![Pantalla1](src/img/pantalla1.jpg)
+
+
+![Pantalla2](src/img/pantalla2.jpg)
 
 ## La interfaz permite al usuario:
 
