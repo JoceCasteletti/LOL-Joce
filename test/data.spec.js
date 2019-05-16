@@ -57,12 +57,31 @@ describe('orderLol', () => {
   )});
 
   it('debería retornar ["Aatrox","Ashe","Veigar","Zyra"] para champsOrder "00",orden de "A-Z"', () => {
-    assert.deepEqual(window.orderLol(data,"00"), [
-    {name: "Aatrox", tags:"Fighter",info: { difficulty: 4 }},
-    {name: "Ashe", tags:"Marksman", info: { difficulty: 4 }},
-    {name:"Veigar",tags:"Mage",info: { difficulty: 7 }},
-    {name:"Zyra", tags:"Mage",info: { difficulty: 7 }}
-  ]);
+    assert.deepEqual(window.orderLol(data,"00"), 
+    [
+      {
+        name: "Aatrox",
+        tags:"Fighter", 
+        info: { difficulty: 4 }
+      },
+      {
+        name: "Ashe",
+        tags: "Marksman",
+        info: { difficulty: 4 }
+      },
+      {
+        name: "Zyra",
+        tags: "Mage",
+        info: { difficulty: 7 }
+      },
+      {
+        name: "Veigar",
+        tags: "Mage",
+        info: { difficulty: 7 }
+      }
+    ]
+    
+  );
     
 })}
 

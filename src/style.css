@@ -29,9 +29,14 @@ body {
     display: inline-block;
 }
 
-#select_order{
-    margin-right: 5em
+button{
+   color: blue;
+}   
+
+.logo{
+    height: 60px;
 }
 
-
-
+.nav-link{
+    margin-left: 65em;
+}
